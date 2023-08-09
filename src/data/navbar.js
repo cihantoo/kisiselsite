@@ -1,4 +1,5 @@
-import { AiFillHome, AiFillIdcard, AiFillMail, AiOutlineShareAlt, FaDiscord } from "react-icons/ai"
+import { AiFillHome, AiFillIdcard, AiFillMail, AiOutlineShareAlt } from "react-icons/ai"
+import { FaDiscord, } from "react-icons/fa";
 
 /* You can go to http://react-icons.github.io/react-icons for explore and add icons. */
 
