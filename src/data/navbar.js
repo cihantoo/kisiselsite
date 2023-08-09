@@ -1,4 +1,4 @@
-import { AiFillHome, AiFillIdcard, AiFillMail, AiOutlineShareAlt } from "react-icons/ai"
+import { AiFillHome, AiFillIdcard, AiFillMail, AiOutlineShareAlt, FaDiscord } from "react-icons/ai"
 
 /* You can go to http://react-icons.github.io/react-icons for explore and add icons. */
 
@@ -9,6 +9,8 @@ export default {
         {label: "About", to: "/about", icon: (<AiFillIdcard size="23px"/>)},
         {label: "Get Contact", to: "/contact", icon: (<AiFillMail size="23px"/>)},
         {label: "Projects", to: "/projects", icon: (<AiOutlineShareAlt size="23px"/>)}
+        {label: "Discord", to: "https://discord.com", icon: (<FaDiscord size="23px"/>)}
+
     ]
 
 }
